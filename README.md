@@ -1,5 +1,6 @@
 # Berkeley-AI-ML-Assignment-17_1
 # Module 17 – Asssignment 17.1 (prompt_III.ipynb)
+# Notebook link - https://github.com/pravinpowale/Berkeley-AI-ML-Assignment-17_1/blob/main/prompt_III.ipynb
 # Business understanding
 A bank’s customers are offered term deposits, and the given data consists of 20 input variables and one output binary variable which takes the values ‘yes’ or ‘no’, according to whether the customer opted for the term deposit offer or not. Based upon the dataset, it is required to create an efficient binary classifier that can predict whether a particular customer will opt for the term deposit.
 # Data understanding
