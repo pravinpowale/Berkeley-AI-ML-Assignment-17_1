@@ -34,7 +34,7 @@ best_params = {'knn2__n_neighbors': 4}	15 s / 5
 best_params = {'dtc2__max_depth': 5}	7.23 s / 5
 
 4	SVM– All features and default kernel = ‘rbf’                  641.67 s	 0.9975946820607015   0.9971136184728417
-best_params = {svm2__gamma': 10.0, 'svm2__kernel': 'rbf'}	32 m 5 s / 3
+best_params = {svm2__gamma': 10.0, 'svm2__kernel': 'rbf'}	
 
 # Conclusion 
 The **SVC** classifier with **kernel** = ‘rbf’ and **gamma** = 10 as shown by GridSearchCV has the highest test accuracy of 0. 9971136184728417, very close to 1. However, it is slower by order of ~ 500 compared to other classifiers. Taking into consideration the optimal combination of speed and accuracy, **Decision Tree classifier with max_depth=5**, seems to be the best out of the four classifiers analyzed.
